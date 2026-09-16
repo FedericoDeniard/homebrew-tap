@@ -8,22 +8,22 @@ class Pscanner < Formula
   on_macos do
     on_arm do
       url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.1.1/pscanner_1.1.1_darwin-arm64.tar.gz"
-      sha256 "8dadee90c4c056e57e8ff687bc192670ccd33630a4527bf6d2d6ea04b43012e1"
+      sha256 "35bb2fb5e39d6279564cb6e675fafe88637845f7f85b9ea37b06bb695f683523"
     end
     on_intel do
       url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.1.1/pscanner_1.1.1_darwin-x86_64.tar.gz"
-      sha256 "245de2b15a3ade37a5f5cead0448599aa5226ca078eb8ef222384b12195356e4"
+      sha256 "d5b6b1f2cb682663d942748ae5da00c0d7077db2171a32f47ec08aaa90581d9a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.1.1/pscanner_1.1.1_linux-x86_64.tar.gz"
-      sha256 "f7babe591e5bda348b47055b42430f0f244249046db88c1deb84e1e12f663b65"
+      sha256 "8e4aa99eec53acd3116907f8621a1a6763182081bc3c256658b183d94c8f0796"
     end
     on_arm do
       url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.1.1/pscanner_1.1.1_linux-arm64.tar.gz"
-      sha256 "70459ba01debb2d3b642a55a1a0f867f7443325c973f12cf47abb0f6bdf7d5f3"
+      sha256 "1925b415be2926d01f835bb52b03754576310f7994547ca70682e0332e7419a5"
     end
   end
 
