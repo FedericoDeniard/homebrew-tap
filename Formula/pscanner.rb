@@ -1,29 +1,29 @@
 class Pscanner < Formula
   desc "TUI to view and manage TCP/UDP ports in use"
   homepage "https://github.com/FedericoDeniard/PortScanner"
-  url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.2.0/pscanner_1.2.0_darwin-arm64.tar.gz"
-  version "1.2.0"
+  url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.3.0/pscanner_1.3.0_darwin-arm64.tar.gz"
+  version "1.3.0"
   license "ISC"
 
   on_macos do
     on_arm do
-      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.2.0/pscanner_1.2.0_darwin-arm64.tar.gz"
-      sha256 "61669910b68c4e4ffa4c9926617d97356bc01d16c6eefee16aade32ec44ac6a7"
+      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.3.0/pscanner_1.3.0_darwin-arm64.tar.gz"
+      sha256 "04ea7a2cb4f62f188b88b2ac506c594559c0e5380f7b9a3fdd7100c46169dc99"
     end
     on_intel do
-      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.2.0/pscanner_1.2.0_darwin-x86_64.tar.gz"
-      sha256 "b0c80eae959e9aa8904bac8242163e60a2b068aff23c810021c12e31b7cece59"
+      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.3.0/pscanner_1.3.0_darwin-x86_64.tar.gz"
+      sha256 "36e01ea060d89e534f9f5e080222c0db847531842ae98e74f3c91d1a0ae86d40"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.2.0/pscanner_1.2.0_linux-x86_64.tar.gz"
-      sha256 "d6c9a7f53bf15f4506da88720fac78b91f5583b2e8c0589aaa215b651eb0d29e"
+      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.3.0/pscanner_1.3.0_linux-x86_64.tar.gz"
+      sha256 "03fdeb4b013eb5da6c535704f244d1af616fac7302b0210359cd18f9d9fee344"
     end
     on_arm do
-      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.2.0/pscanner_1.2.0_linux-arm64.tar.gz"
-      sha256 "ea43ab826250c814c4e25a11faf4fa49f191aad142bcfec7a5e4b19eb7c21f63"
+      url "https://github.com/FedericoDeniard/PortScanner/releases/download/v1.3.0/pscanner_1.3.0_linux-arm64.tar.gz"
+      sha256 "6da9e381443bea1a331d75922f1c26a3ce1b9f6ecac633e60e30138bd36e1341"
     end
   end
 
